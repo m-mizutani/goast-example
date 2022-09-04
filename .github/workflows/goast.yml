@@ -16,6 +16,6 @@ jobs:
           policy: ./policy
           format: json
           output: fail.json
-          source: ./pkg
+          source: .
       - name: report
         run: cat fail.json | reviewdog -reporter=github-pr-review -f rdjson
