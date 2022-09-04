@@ -9,8 +9,13 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
+      - uses: reviewdog/action-setup@v1
       - name: goast
-        uses: m-mizutani/goast-action@main
+        uses: m-mizutani/goast-action
         with:
           policy: ./policy
-          source: .
+          format: json
+          output: fail.json
+          source: ./pkg
+      - name: report
+        run: cat fail.json | reviewdog -reporter=github-pr-review -f rdjson
