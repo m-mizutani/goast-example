@@ -19,7 +19,7 @@ no_ctx_allow_list = ["main"]
 fail[result] {
     func := input.Node.Decls[_]
     func.Body
-    every allowed in allowList {
+    every allowed in no_ctx_allow_list {
         func.Name.Name != allowed
     }
 
@@ -34,7 +34,7 @@ fail[result] {
 fail[result] {
     func := input.Node.Decls[_]
     func.Body
-    every allowed in allowList {
+    every allowed in no_ctx_allow_list {
         func.Name.Name != allowed
     }
 
