@@ -19,7 +19,7 @@ no_ctx_allow_list = ["main"]
 fail[result] {
     func := input.Node.Decls[_]
     func.Body
-    every allowed in allowList {
+    every allowed in no_ctx_allow_list {
         func.Name.Name != allowed
     }
 
@@ -33,8 +33,23 @@ fail[result] {
 
 fail[result] {
     func := input.Node.Decls[_]
-    func.Body
-    every allowed in allowList {
+    every allowed in no_ctx_allow_list {
+        func.Name.Name != allowed
+    }
+
+    func.Type.Params.List[0].Type.Name != "context.Context"
+
+    result := {
+        "msg": sprintf("%s first argument must be context.Context, actual is %s",
+        [func.Name.Name, func.Type.Params.List[0].Type.Name]),
+        "pos": func.Name.NamePos,
+        "sev": "error",
+    }
+}
+
+fail[result] {
+    func := input.Node.Decls[_]
+    every allowed in no_ctx_allow_list {
         func.Name.Name != allowed
     }
 
