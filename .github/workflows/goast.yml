@@ -1,7 +1,7 @@
 name: goast
 
 on:
-  push:
+  pull_request:
 
 jobs:
   eval:
@@ -19,6 +19,7 @@ jobs:
           source: pkg
           fail: "true"
       - name: report
+        if: failure() && steps.fail_step.outcome == 'goast'
         env:
           REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: cat fail.json | reviewdog -reporter=github-pr-review -f rdjson
