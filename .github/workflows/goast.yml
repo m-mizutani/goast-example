@@ -13,10 +13,11 @@ jobs:
       - name: goast
         uses: m-mizutani/goast-action@main
         with:
-          policy: ./policy
+          policy: .goast
           format: json
           output: fail.json
-          source: .
+          source: pkg
+          fail: "true"
       - name: report
         env:
           REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}

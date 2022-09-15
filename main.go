@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"log"
+	"os"
+
+	"github.com/m-mizutani/goast-example/pkg/controller/cmd"
+)
 
 func main() {
-	fmt.Println("hello!")
+	if err := cmd.Run(os.Args); err != nil {
+		log.Fatal(err.Error())
+	}
 }

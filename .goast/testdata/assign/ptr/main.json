@@ -1,0 +1,1 @@
+{"Path":".goast/src/assign.go","Node":{"Lhs":[{"NamePos":256,"Name":"u3","Obj":null}],"TokPos":259,"Tok":47,"Rhs":[{"OpPos":262,"Op":17,"X":{"Type":{"X":{"NamePos":263,"Name":"model","Obj":null},"Sel":{"NamePos":269,"Name":"User","Obj":null}},"Lbrace":273,"Elts":[],"Rbrace":274,"Incomplete":false}}]},"Kind":"AssignStmt"}
