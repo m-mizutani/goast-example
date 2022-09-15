@@ -1,7 +1,5 @@
 package goast
 
-import future.keywords.every
-
 fail[res] {
 	func := input.Node.Decls[_]
 	func.Body

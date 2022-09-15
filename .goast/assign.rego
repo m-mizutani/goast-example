@@ -1,7 +1,5 @@
 package goast
 
-import future.keywords.in
-
 fail[out] {
 	input.Kind == "DeclStmt"
 	spec := input.Node.Decl.Specs[_]
