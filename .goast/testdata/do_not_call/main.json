@@ -1,0 +1,30 @@
+{
+  "Path": ".goast/src/do_not_call.go",
+  "Node": {
+    "X": {
+      "Fun": {
+        "X": {
+          "NamePos": 51,
+          "Name": "fmt",
+          "Obj": null
+        },
+        "Sel": {
+          "NamePos": 55,
+          "Name": "Println",
+          "Obj": null
+        }
+      },
+      "Lparen": 62,
+      "Args": [
+        {
+          "ValuePos": 63,
+          "Kind": 9,
+          "Value": "\"hello\""
+        }
+      ],
+      "Ellipsis": 0,
+      "Rparen": 70
+    }
+  },
+  "Kind": "ExprStmt"
+}

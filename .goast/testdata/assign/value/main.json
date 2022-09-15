@@ -1,1 +1,35 @@
-{"Path":".goast/src/assign.go","Node":{"Lhs":[{"NamePos":181,"Name":"u2","Obj":null}],"TokPos":184,"Tok":47,"Rhs":[{"Type":{"X":{"NamePos":187,"Name":"model","Obj":null},"Sel":{"NamePos":193,"Name":"User","Obj":null}},"Lbrace":197,"Elts":[],"Rbrace":198,"Incomplete":false}]},"Kind":"AssignStmt"}
+{
+  "Path": ".goast/src/assign.go",
+  "Node": {
+    "Lhs": [
+      {
+        "NamePos": 181,
+        "Name": "u2",
+        "Obj": null
+      }
+    ],
+    "TokPos": 184,
+    "Tok": 47,
+    "Rhs": [
+      {
+        "Type": {
+          "X": {
+            "NamePos": 187,
+            "Name": "model",
+            "Obj": null
+          },
+          "Sel": {
+            "NamePos": 193,
+            "Name": "User",
+            "Obj": null
+          }
+        },
+        "Lbrace": 197,
+        "Elts": [],
+        "Rbrace": 198,
+        "Incomplete": false
+      }
+    ]
+  },
+  "Kind": "AssignStmt"
+}
