@@ -1,13 +1,12 @@
 package goast
 
 fail[res] {
-	func := input.Node.Decls[_]
-	func.Body
-	not has_context(func.Type.Params.List)
+    input.Kind == "FuncDecl"
+	not has_context(input.Node.Type.Params.List)
 
 	res := {
 		"msg": "first argument must be context.Context",
-		"pos": func.Name.NamePos,
+		"pos": input.Node.Name.NamePos,
 	}
 }
 

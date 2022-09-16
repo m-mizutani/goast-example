@@ -1,0 +1,55 @@
+{
+  "Path": ".goast/src/must_call.go",
+  "Node": {
+    "Doc": null,
+    "Recv": null,
+    "Name": {
+      "NamePos": 76,
+      "Name": "CalledLogFunc",
+      "Obj": null
+    },
+    "Type": {
+      "Func": 71,
+      "TypeParams": null,
+      "Params": {
+        "Opening": 89,
+        "List": [],
+        "Closing": 90
+      },
+      "Results": null
+    },
+    "Body": {
+      "Lbrace": 92,
+      "List": [
+        {
+          "X": {
+            "Fun": {
+              "X": {
+                "NamePos": 153,
+                "Name": "utils",
+                "Obj": null
+              },
+              "Sel": {
+                "NamePos": 159,
+                "Name": "Log",
+                "Obj": null
+              }
+            },
+            "Lparen": 162,
+            "Args": [
+              {
+                "ValuePos": 163,
+                "Kind": 9,
+                "Value": "\"hello\""
+              }
+            ],
+            "Ellipsis": 0,
+            "Rparen": 170
+          }
+        }
+      ],
+      "Rbrace": 172
+    }
+  },
+  "Kind": "FuncDecl"
+}

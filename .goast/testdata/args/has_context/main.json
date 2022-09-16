@@ -1,0 +1,111 @@
+{
+  "Path": ".goast/src/use_context.go",
+  "Node": {
+    "Doc": null,
+    "Recv": null,
+    "Name": {
+      "NamePos": 84,
+      "Name": "HasContext",
+      "Obj": null
+    },
+    "Type": {
+      "Func": 79,
+      "TypeParams": null,
+      "Params": {
+        "Opening": 94,
+        "List": [
+          {
+            "Doc": null,
+            "Names": [
+              {
+                "NamePos": 95,
+                "Name": "ctx",
+                "Obj": null
+              }
+            ],
+            "Type": {
+              "X": {
+                "NamePos": 99,
+                "Name": "context",
+                "Obj": null
+              },
+              "Sel": {
+                "NamePos": 107,
+                "Name": "Context",
+                "Obj": null
+              }
+            },
+            "Tag": null,
+            "Comment": null
+          },
+          {
+            "Doc": null,
+            "Names": [
+              {
+                "NamePos": 116,
+                "Name": "a",
+                "Obj": null
+              },
+              {
+                "NamePos": 119,
+                "Name": "b",
+                "Obj": null
+              }
+            ],
+            "Type": {
+              "NamePos": 121,
+              "Name": "int",
+              "Obj": null
+            },
+            "Tag": null,
+            "Comment": null
+          }
+        ],
+        "Closing": 124
+      },
+      "Results": {
+        "Opening": 0,
+        "List": [
+          {
+            "Doc": null,
+            "Names": [],
+            "Type": {
+              "NamePos": 126,
+              "Name": "int",
+              "Obj": null
+            },
+            "Tag": null,
+            "Comment": null
+          }
+        ],
+        "Closing": 0
+      }
+    },
+    "Body": {
+      "Lbrace": 130,
+      "List": [
+        {
+          "Return": 191,
+          "Results": [
+            {
+              "X": {
+                "NamePos": 198,
+                "Name": "a",
+                "Obj": null
+              },
+              "OpPos": 200,
+              "Op": 12,
+              "Y": {
+                "NamePos": 202,
+                "Name": "b",
+                "Obj": null
+              }
+            }
+          ]
+        }
+      ],
+      "Rbrace": 204
+    }
+  },
+  "Kind": "FuncDecl"
+}

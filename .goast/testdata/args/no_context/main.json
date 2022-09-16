@@ -1,0 +1,87 @@
+{
+  "Path": ".goast/src/use_context.go",
+  "Node": {
+    "Doc": null,
+    "Recv": null,
+    "Name": {
+      "NamePos": 212,
+      "Name": "NoContext",
+      "Obj": null
+    },
+    "Type": {
+      "Func": 207,
+      "TypeParams": null,
+      "Params": {
+        "Opening": 221,
+        "List": [
+          {
+            "Doc": null,
+            "Names": [
+              {
+                "NamePos": 222,
+                "Name": "a",
+                "Obj": null
+              },
+              {
+                "NamePos": 225,
+                "Name": "b",
+                "Obj": null
+              }
+            ],
+            "Type": {
+              "NamePos": 227,
+              "Name": "int",
+              "Obj": null
+            },
+            "Tag": null,
+            "Comment": null
+          }
+        ],
+        "Closing": 230
+      },
+      "Results": {
+        "Opening": 0,
+        "List": [
+          {
+            "Doc": null,
+            "Names": [],
+            "Type": {
+              "NamePos": 232,
+              "Name": "int",
+              "Obj": null
+            },
+            "Tag": null,
+            "Comment": null
+          }
+        ],
+        "Closing": 0
+      }
+    },
+    "Body": {
+      "Lbrace": 236,
+      "List": [
+        {
+          "Return": 296,
+          "Results": [
+            {
+              "X": {
+                "NamePos": 303,
+                "Name": "a",
+                "Obj": null
+              },
+              "OpPos": 305,
+              "Op": 12,
+              "Y": {
+                "NamePos": 307,
+                "Name": "b",
+                "Obj": null
+              }
+            }
+          ]
+        }
+      ],
+      "Rbrace": 309
+    }
+  },
+  "Kind": "FuncDecl"
+}

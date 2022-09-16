@@ -1,0 +1,55 @@
+{
+  "Path": ".goast/src/use_context.go",
+  "Node": {
+    "Doc": null,
+    "Recv": null,
+    "Name": {
+      "NamePos": 317,
+      "Name": "NoArgs",
+      "Obj": null
+    },
+    "Type": {
+      "Func": 312,
+      "TypeParams": null,
+      "Params": {
+        "Opening": 323,
+        "List": [],
+        "Closing": 324
+      },
+      "Results": {
+        "Opening": 0,
+        "List": [
+          {
+            "Doc": null,
+            "Names": [],
+            "Type": {
+              "NamePos": 326,
+              "Name": "int",
+              "Obj": null
+            },
+            "Tag": null,
+            "Comment": null
+          }
+        ],
+        "Closing": 0
+      }
+    },
+    "Body": {
+      "Lbrace": 330,
+      "List": [
+        {
+          "Return": 387,
+          "Results": [
+            {
+              "ValuePos": 394,
+              "Kind": 5,
+              "Value": "0"
+            }
+          ]
+        }
+      ],
+      "Rbrace": 396
+    }
+  },
+  "Kind": "FuncDecl"
+}

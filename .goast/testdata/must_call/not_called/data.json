@@ -1,0 +1,28 @@
+{
+  "Path": ".goast/src/must_call.go",
+  "Node": {
+    "Doc": null,
+    "Recv": null,
+    "Name": {
+      "NamePos": 180,
+      "Name": "NotCalledLogFunc",
+      "Obj": null
+    },
+    "Type": {
+      "Func": 175,
+      "TypeParams": null,
+      "Params": {
+        "Opening": 196,
+        "List": [],
+        "Closing": 197
+      },
+      "Results": null
+    },
+    "Body": {
+      "Lbrace": 199,
+      "List": [],
+      "Rbrace": 263
+    }
+  },
+  "Kind": "FuncDecl"
+}

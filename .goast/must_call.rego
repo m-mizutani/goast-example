@@ -3,15 +3,14 @@ package goast
 import future.keywords.every
 
 fail[res] {
-	input.Kind == "File"
-	func := input.Node.Decls[_]
-	every stmt in func.Body.List {
+	input.Kind == "FuncDecl"
+	every stmt in input.Node.Body.List {
 		not is_log_func(stmt.X.Fun)
 	}
 
 	res = {
 		"msg": "utils.Log must be called at least once",
-		"pos": func.Name.NamePos,
+		"pos": input.Node.Name.NamePos,
 	}
 }
 
