@@ -33,7 +33,7 @@
             "List": [
               {
                 "Slash": 128,
-                "Text": "// goast.sync: .goast/testdata/assign/def/main.json"
+                "Text": "// goast.sync: .goast/testdata/assign/def/data.json"
               }
             ]
           }

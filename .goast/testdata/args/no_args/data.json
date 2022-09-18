@@ -4,17 +4,17 @@
     "Doc": null,
     "Recv": null,
     "Name": {
-      "NamePos": 317,
+      "NamePos": 271,
       "Name": "NoArgs",
       "Obj": null
     },
     "Type": {
-      "Func": 312,
+      "Func": 266,
       "TypeParams": null,
       "Params": {
-        "Opening": 323,
+        "Opening": 277,
         "List": [],
-        "Closing": 324
+        "Closing": 278
       },
       "Results": {
         "Opening": 0,
@@ -23,7 +23,7 @@
             "Doc": null,
             "Names": [],
             "Type": {
-              "NamePos": 326,
+              "NamePos": 280,
               "Name": "int",
               "Obj": null
             },
@@ -35,20 +35,20 @@
       }
     },
     "Body": {
-      "Lbrace": 330,
+      "Lbrace": 284,
       "List": [
         {
-          "Return": 387,
+          "Return": 341,
           "Results": [
             {
-              "ValuePos": 394,
+              "ValuePos": 348,
               "Kind": 5,
               "Value": "0"
             }
           ]
         }
       ],
-      "Rbrace": 396
+      "Rbrace": 350
     }
   },
   "Kind": "FuncDecl"

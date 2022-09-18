@@ -1,7 +1,7 @@
 package goast
 
 fail[res] {
-    input.Kind == "FuncDecl"
+	input.Kind == "FuncDecl"
 	not has_context(input.Node.Type.Params.List)
 
 	res := {

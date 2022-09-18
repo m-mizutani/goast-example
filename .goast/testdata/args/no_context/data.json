@@ -4,56 +4,32 @@
     "Doc": null,
     "Recv": null,
     "Name": {
-      "NamePos": 84,
-      "Name": "HasContext",
+      "NamePos": 166,
+      "Name": "NoContext",
       "Obj": null
     },
     "Type": {
-      "Func": 79,
+      "Func": 161,
       "TypeParams": null,
       "Params": {
-        "Opening": 94,
+        "Opening": 175,
         "List": [
           {
             "Doc": null,
             "Names": [
               {
-                "NamePos": 95,
-                "Name": "ctx",
-                "Obj": null
-              }
-            ],
-            "Type": {
-              "X": {
-                "NamePos": 99,
-                "Name": "context",
-                "Obj": null
-              },
-              "Sel": {
-                "NamePos": 107,
-                "Name": "Context",
-                "Obj": null
-              }
-            },
-            "Tag": null,
-            "Comment": null
-          },
-          {
-            "Doc": null,
-            "Names": [
-              {
-                "NamePos": 116,
+                "NamePos": 176,
                 "Name": "a",
                 "Obj": null
               },
               {
-                "NamePos": 119,
+                "NamePos": 179,
                 "Name": "b",
                 "Obj": null
               }
             ],
             "Type": {
-              "NamePos": 121,
+              "NamePos": 181,
               "Name": "int",
               "Obj": null
             },
@@ -61,7 +37,7 @@
             "Comment": null
           }
         ],
-        "Closing": 124
+        "Closing": 184
       },
       "Results": {
         "Opening": 0,
@@ -70,7 +46,7 @@
             "Doc": null,
             "Names": [],
             "Type": {
-              "NamePos": 126,
+              "NamePos": 186,
               "Name": "int",
               "Obj": null
             },
@@ -82,21 +58,21 @@
       }
     },
     "Body": {
-      "Lbrace": 130,
+      "Lbrace": 190,
       "List": [
         {
-          "Return": 191,
+          "Return": 250,
           "Results": [
             {
               "X": {
-                "NamePos": 198,
+                "NamePos": 257,
                 "Name": "a",
                 "Obj": null
               },
-              "OpPos": 200,
+              "OpPos": 259,
               "Op": 12,
               "Y": {
-                "NamePos": 202,
+                "NamePos": 261,
                 "Name": "b",
                 "Obj": null
               }
@@ -104,7 +80,7 @@
           ]
         }
       ],
-      "Rbrace": 204
+      "Rbrace": 263
     }
   },
   "Kind": "FuncDecl"

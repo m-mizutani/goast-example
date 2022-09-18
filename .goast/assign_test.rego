@@ -1,7 +1,5 @@
 package goast
 
-import future.keywords.in
-
 test_assign {
 	not _test_assign
 }

@@ -1,0 +1,29 @@
+{
+  "Path": ".goast/src/modify.go",
+  "Node": {
+    "Lhs": [
+      {
+        "X": {
+          "NamePos": 115,
+          "Name": "u",
+          "Obj": null
+        },
+        "Sel": {
+          "NamePos": 117,
+          "Name": "Name",
+          "Obj": null
+        }
+      }
+    ],
+    "TokPos": 122,
+    "Tok": 42,
+    "Rhs": [
+      {
+        "ValuePos": 124,
+        "Kind": 9,
+        "Value": "\"test\""
+      }
+    ]
+  },
+  "Kind": "AssignStmt"
+}

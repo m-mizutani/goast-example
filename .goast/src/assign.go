@@ -7,9 +7,9 @@ import (
 )
 
 func InvalidAssign() {
-	var u1 model.User   // goast.sync: .goast/testdata/assign/def/main.json
-	u2 := model.User{}  // goast.sync: .goast/testdata/assign/value/main.json
-	u3 := &model.User{} // goast.sync: .goast/testdata/assign/ptr/main.json
+	var u1 model.User   // goast.sync: .goast/testdata/assign/def/data.json
+	u2 := model.User{}  // goast.sync: .goast/testdata/assign/value/data.json
+	u3 := &model.User{} // goast.sync: .goast/testdata/assign/ptr/data.json
 
 	fmt.Println(u1, u2, u3)
 }
